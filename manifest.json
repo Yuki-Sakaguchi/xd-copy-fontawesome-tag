@@ -1,0 +1,25 @@
+{
+    "id": "copy fontawesome tag",
+    "name": "copy fontawesome tag",
+    "version": "0.0.1",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "COPY FONTAWESOME TAG",
+            "commandId": "copyFontawesomeTag",
+            "shortcut": {
+                "mac": "Cmd+f",
+                "win": "Ctrl+f"
+            }
+        }
+    ]
+  }
+  
